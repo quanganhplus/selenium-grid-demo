@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium GRID">
+
+	
+
+
+  <test name="Run on FIREFOX">
+  	<parameter name="browser" value="firefox"/>
+  	<parameter name="ipAddress" value="192.168.4.100" />
+    <parameter name="port" value="5555" />
+  	
+    <classes>
+      <class name="selenium.Level_00_Register_Login_Step_By_Step"/>
+    </classes>
+  </test> 
+	
+  <test name="Run on CHROME">
+  	<parameter name="browser" value="chrome"/>
+  	<parameter name="ipAddress" value="192.168.4.100" />
+    <parameter name="port" value="5555" />
+    <classes>
+      <class name="selenium.Level_00_Register_Login_Step_By_Step"/>
+    </classes>
+  </test> 
+    
+</suite> 
